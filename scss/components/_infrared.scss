@@ -1,0 +1,76 @@
+.body-ir{
+    background-image: url(../img/fondo-2.png);
+    
+    width: 100%;
+}
+
+.titulo-ir{
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6em;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.subtitulo-ir{
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 4em;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.subtitulo-ir-2{
+    text-align: center;
+    align-items: flex-end;
+    font-family: "Bebas Neue", cursive;
+    font-size: 4em;
+    margin-top:5%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.parrafo-ir{
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.img-ir
+{
+    display: block;
+    margin: 0% auto;
+    margin-top: 6%;
+    width: 40%;
+    border: solid white 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px){
+
+    .titulo-ir
+    {
+        font-size: 3em;
+    }
+    
+    .parrafo-ir
+    {
+        font-size: 1.2em;
+    }
+    .subtitulo-ir
+    {
+        font-size: 2em;
+    }
+    
+    .subtitulo-ir-2
+    {
+        font-size: 2em;
+    }
+
+    .img-ir
+    {
+        width: 90%;
+        border: solid white 10px;
+    }
+}

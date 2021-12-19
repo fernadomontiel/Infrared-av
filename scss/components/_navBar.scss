@@ -1,0 +1,15 @@
+.color-nav{
+	background-color: #FFA4B4;
+}
+.letras-nav{
+	color: black;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2em;
+}
+@media screen and (max-width: 574px)
+{
+	.letras-nav
+	{ 
+        font-size: 1em;
+	} 
+}
